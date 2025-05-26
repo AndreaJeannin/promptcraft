@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prompt Structure - Promptcraft</title>
+  <meta name="concept-id" content="prompt_structure">
+  <meta name="category" content="ai_interaction">
+  <meta name="subcategory" content="prompt_engineering">
+  <meta name="complexity-level" content="advanced">
+  <meta name="ai-relevance" content="critical">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Prompt Structure",
+    "definition": "The systematic organization of instructions, context, and parameters within an AI prompt to achieve specific creative writing outcomes through clear communication of intent, constraints, and desired output format",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Promptcraft Writing Concepts"
+    },
+    "broader": "AI Interaction",
+    "related": ["Prompt", "Creative Constraints", "Voice", "Genre", "Character Arc"],
+    "examples": ["Context-Task-Format", "Role-Goal-Constraints", "Setup-Challenge-Output"]
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; color: #333; padding: 0 2em; }
+    h1 { font-size: 2.2em; color: #2c3e50; border-bottom: 3px solid #e67e22; padding-bottom: 0.5em; }
+    h2 { color: #34495e; margin-top: 2em; }
+    .definition { background-color: #f8f9fa; padding: 1.5em; border-left: 4px solid #e67e22; margin: 1em 0; font-size: 1.1em; }
+    .structure-type { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 1em 0; border-radius: 5px; }
+    .structure-type h3 { color: #e67e22; margin-top: 0; }
+    .examples { background-color: #fdf2e9; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .prompt-examples { background-color: #f0f8e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .relationships { background-color: #fff3cd; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .meta-info { font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 1em; margin-top: 2em; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .concept-link { background-color: #ecf0f1; padding: 0.3em 0.6em; border-radius: 3px; margin: 0 0.2em; }
+    .ai-note { background-color: #e3f2fd; padding: 1em; border-radius: 5px; margin: 1em 0; border-left: 4px solid #2196f3; }
+    .component-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1em; margin: 1em 0; }
+    .component-card { background-color: #fafafa; padding: 1em; border-radius: 5px; border-left: 3px solid #e67e22; }
+    .template-box { background-color: #f8f9fa; border: 1px solid #dee2e6; padding: 1.5em; margin: 1em 0; border-radius: 5px; font-family: 'Courier New', monospace; font-size: 0.9em; }
+    .good-example { border-left: 4px solid #27ae60; background-color: #d5f4e6; }
+    .poor-example { border-left: 4px solid #e74c3c; background-color: #fdf2f2; }
+    .best-practices { background-color: #e8f5e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+  </style>
+</head>
+<body>
+  <h1>Prompt Structure</h1>
+  
+  <div class="definition">
+    <strong>Definition:</strong> Prompt structure is the systematic organization of instructions, context, and parameters within an AI prompt to achieve specific creative writing outcomes. It involves the strategic arrangement of information to clearly communicate intent, establish constraints, and guide the AI toward desired output formats and quality levels.
+  </div>
+
+  <h2>Core Structural Frameworks</h2>
+  
+  <div class="structure-type">
+    <h3>Context-Task-Format (CTF)</h3>
+    <p><strong>Pattern:</strong> Establish situation → Define specific task → Specify output requirements</p>
+    <p><strong>Best for:</strong> Targeted creative tasks with specific output needs</p>
+    <div class="template-box good-example">
+<strong>Context:</strong> You're writing a noir detective story set in 1940s Los Angeles.
+<strong>Task:</strong> Create a scene where the detective discovers a crucial clue in a nightclub.
+<strong>Format:</strong> Write 300-400 words in first person, emphasizing atmosphere and internal monologue.
+    </div>
+  </div>
+
+  <div class="structure-type">
+    <h3>Role-Goal-Constraints (RGC)</h3>
+    <p><strong>Pattern:</strong> Define AI role → Establish objective → Set creative boundaries</p>
+    <p><strong>Best for:</strong> Complex creative projects requiring specific expertise simulation</p>
+    <div class="template-box good-example">
+<strong>Role:</strong> Act as a experienced fantasy worldbuilder and storyteller.
+<strong>Goal:</strong> Develop a magic system based on emotional resonance for my novel.
+<strong>Constraints:</strong> Must have clear costs, avoid being overpowered, and connect to themes of empathy and understanding.
+    </div>
+  </div>
+
+  <div class="structure-type">
+    <h3>Setup-Challenge-Output (SCO)</h3>
+    <p><strong>Pattern:</strong> Provide narrative foundation → Present creative problem → Define solution format</p>
+    <p><strong>Best for:</strong> Developing specific story elements or solving narrative problems</p>
+    <div class="template-box good-example">
+<strong>Setup:</strong> My protagonist is a reformed thief trying to live honestly.
+<strong>Challenge:</strong> They must choose between staying hidden or using their skills to save someone.
+<strong>Output:</strong> Create this pivotal scene showing their internal conflict and decision process.
+    </div>
+  </div>
+
+  <div class="structure-type">
+    <h3>Layer-Build-Refine (LBR)</h3>
+    <p><strong>Pattern:</strong> Establish foundation → Add complexity → Polish and specify</p>
+    <p><strong>Best for:</strong> Iterative development of complex creative elements</p>
+    <div class="template-box good-example">
+<strong>Layer:</strong> Create a basic character: young scientist in a dystopian future.
+<strong>Build:</strong> Add personal stakes: their research could save their dying parent.
+<strong>Refine:</strong> Show how this motivation conflicts with their moral code when the government wants to weaponize their work.
+    </div>
+  </div>
+
+  <h2>Essential Structural Components</h2>
+  <div class="component-grid">
+    <div class="component-card">
+      <h4>Context Setting</h4>
+      <p>Establish the creative environment, genre expectations, and relevant background information that shapes the creative task.</p>
+    </div>
+    <div class="component-card">
+      <h4>Task Definition</h4>
+      <p>Clearly specify what you want created—scene, character, dialogue, plot point—with appropriate scope and focus.</p>
+    </div>
+    <div class="component-card">
+      <h4>Parameter Specification</h4>
+      <p>Define length, style, perspective, tone, and other technical requirements for the output.</p>
+    </div>
+    <div class="component-card">
+      <h4>Creative Constraints</h4>
+      <p>Establish boundaries that focus creativity—genre conventions, character limitations, thematic requirements.</p>
+    </div>
+    <div class="component-card">
+      <h4>Quality Indicators</h4>
+      <p>Specify desired quality markers—emotional impact, narrative sophistication, character depth, atmospheric richness.</p>
+    </div>
+    <div class="component-card">
+      <h4>Output Format</h4>
+      <p>Define how results should be presented—narrative prose, dialogue format, bullet points, structured analysis.</p>
+    </div>
+  </div>
+
+  <h2>Advanced Structural Techniques</h2>
+  <ul>
+    <li><strong>Layered Instructions:</strong> Build complexity through sequential instruction layers rather than single complex requests</li>
+    <li><strong>Conditional Branching:</strong> Provide different paths based on narrative needs or creative choices</li>
+    <li><strong>Reference Integration:</strong> Include specific examples or style references to guide AI understanding</li>
+    <li><strong>Iterative Refinement:</strong> Structure prompts for back-and-forth development and improvement</li>
+    <li><strong>Multi-Modal Requests:</strong> Combine different types of creative output in structured sequences</li>
+  </ul>
+
+  <div class="examples">
+    <h3>Structure Comparison</h3>
+    <div class="poor-example template-box">
+<strong>Poor Structure:</strong>
+"Write a story about a dragon and a knight but make it different and interesting with good characters."
+<em>Problems: Vague task, no context, unclear parameters, no creative direction</em>
+    </div>
+    <div class="good-example template-box">
+<strong>Improved Structure:</strong>
+<strong>Context:</strong> Subverting traditional fantasy tropes in a modern setting
+<strong>Task:</strong> Write a scene where a corporate lawyer (modern "knight") negotiates with a dragon who's actually a misunderstood environmental activist
+<strong>Format:</strong> 400-500 words, dialogue-heavy, satirical tone
+<strong>Focus:</strong> Highlight absurdity of bureaucracy vs. genuine ecological concern
+    </div>
+  </div>
+
+  <div class="best-practices">
+    <h3>Structural Best Practices</h3>
+    <p><strong>Lead with Purpose:</strong> Begin prompts with clear creative intent and desired outcome</p>
+    <p><strong>Sequence Logically:</strong> Order instructions from general context to specific requirements</p>
+    <p><strong>Use Active Language:</strong> Employ specific, action-oriented verbs rather than passive constructions</p>
+    <p><strong>Balance Freedom and Direction:</strong> Provide enough guidance without stifling creative interpretation</p>
+    <p><strong>Include Quality Checkpoints:</strong> Build in ways to assess and refine output quality</p>
+  </div>
+
+  <div class="prompt-examples">
+    <h3>Structured Prompt Examples</h3>
+    <p><strong>Character Development:</strong> "Role: Character psychologist | Goal: Analyze why my protagonist fears commitment | Constraints: Root in childhood experience, connect to main plot conflict | Output: Psychological profile with 3 specific behavioral manifestations"</p>
+    <p><strong>Scene Creation:</strong> "Context: Gothic horror, abandoned mansion | Task: Write discovery scene where protagonist finds family secret | Format: 500 words, third person limited, building dread | Focus: Sensory details and emotional revelation"</p>
+    <p><strong>Dialogue Crafting:</strong> "Setup: Two former friends now rivals | Challenge: They must work together despite betrayal | Output: 10-15 lines of realistic dialogue showing tension, history, and reluctant cooperation"</p>
+  </div>
+
+  <div class="ai-note">
+    <h3>For AI Models</h3>
+    <p>When processing structured prompts, identify: What is the core creative request? What constraints shape the response? Which narrative elements (like <a href="character_arc.html" class="concept-link">character arc</a>, <a href="voice.html" class="concept-link">voice</a>, <a href="genre.html" class="concept-link">genre</a>) are specified? How should quality be measured? Structure your creative process to address each component systematically while maintaining narrative coherence.</p>
+  </div>
+
+  <h2>Relationship to Other Concepts</h2>
+  <div class="relationships">
+    <p><strong>Organizes:</strong> <a href="prompt.html" class="concept-link">Prompt</a> - Provides systematic framework for effective prompt composition</p>
+    <p><strong>Implements:</strong> <a href="creative_constraints.html" class="concept-link">Creative Constraints</a> - Structures how limitations are communicated and applied</p>
+    <p><strong>Specifies:</strong> <a href="voice.html" class="concept-link">Voice</a> - Directs how narrative voice and style should be achieved</p>
+    <p><strong>Guides:</strong> <a href="genre.html" class="concept-link">Genre</a> - Communicates genre expectations and conventions to follow</p>
+    <p><strong>Shapes:</strong> <a href="character_arc.html" class="concept-link">Character Arc</a> - Directs how character development should unfold</p>
+  </div>
+
+  <h2>Common Structural Problems</h2>
+  <p><strong>Information Overload:</strong> Including too many instructions in a single prompt, leading to confusion or incomplete execution.</p>
+  <p><strong>Ambiguous Hierarchy:</strong> Failing to prioritize instructions, making it unclear which elements are most important.</p>
+  <p><strong>Missing Context:</strong> Providing tasks without sufficient background information for quality execution.</p>
+  <p><strong>Conflicting Instructions:</strong> Including contradictory requirements that create impossible creative constraints.</p>
+  <p><strong>Vague Success Criteria:</strong> Not defining how to evaluate whether the creative output meets expectations.</p>
+
+  <div class="meta-info">
+    <p><strong>Category:</strong> AI Interaction > Prompt Engineering</p>
+    <p><strong>Complexity Level:</strong> Advanced</p>
+    <p><strong>AI Relevance:</strong> Critical - Essential for effective AI-assisted creative writing</p>
+    <p><strong>Related Concepts:</strong> 
+      <a href="prompt.html">Prompt</a> • 
+      <a href="creative_constraints.html">Creative Constraints</a> • 
+      <a href="voice.html">Voice</a> • 
+      <a href="genre.html">Genre</a> • 
+      <a href="character_arc.html">Character Arc</a>
+    </p>
+  </div>
+</body>
+</html>

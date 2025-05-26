@@ -5,23 +5,159 @@
   <title>Conflict - Promptcraft</title>
   <meta name="concept-id" content="conflict">
   <meta name="category" content="narrative_structure">
+  <meta name="subcategory" content="foundation_elements">
+  <meta name="complexity-level" content="fundamental">
+  <meta name="ai-relevance" content="critical">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Conflict",
+    "definition": "The central struggle or tension that drives a narrative forward and creates dramatic interest",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Promptcraft Writing Concepts"
+    },
+    "broader": "Narrative Structure",
+    "related": ["Character Arc", "Theme", "Plot Structure", "Character Motivation"],
+    "examples": ["Person vs Person", "Person vs Self", "Person vs Society", "Person vs Nature"]
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; color: #333; padding: 0 2em; }
+    h1 { font-size: 2.2em; color: #2c3e50; border-bottom: 3px solid #e74c3c; padding-bottom: 0.5em; }
+    h2 { color: #34495e; margin-top: 2em; }
+    .definition { background-color: #f8f9fa; padding: 1.5em; border-left: 4px solid #e74c3c; margin: 1em 0; font-size: 1.1em; }
+    .conflict-type { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 1em 0; border-radius: 5px; }
+    .conflict-type h3 { color: #e74c3c; margin-top: 0; }
+    .examples { background-color: #e8f4f8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .prompt-examples { background-color: #f0f8e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .relationships { background-color: #fff3cd; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .meta-info { font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 1em; margin-top: 2em; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .concept-link { background-color: #ecf0f1; padding: 0.3em 0.6em; border-radius: 3px; margin: 0 0.2em; }
+    .ai-note { background-color: #e3f2fd; padding: 1em; border-radius: 5px; margin: 1em 0; border-left: 4px solid #2196f3; }
+    .tension-scale { background-color: #ffeaa7; padding: 1em; border-radius: 5px; margin: 1em 0; }
+  </style>
 </head>
 <body>
   <h1>Conflict</h1>
-  <p><strong>Definition:</strong> Conflict is the central struggle between opposing forces that drives the plot of a narrative.</p>
-  <p><strong>Types of conflict:</strong></p>
+  
+  <div class="definition">
+    <strong>Definition:</strong> Conflict is the central struggle, tension, or opposition that drives a narrative forward and creates dramatic interest. It represents the forces that prevent characters from easily achieving their goals, generating the friction necessary for compelling storytelling.
+  </div>
+
+  <h2>Types of Conflict</h2>
+  
+  <div class="conflict-type">
+    <h3>Person vs Person (External)</h3>
+    <p><strong>Nature:</strong> Direct opposition between characters with conflicting goals, values, or desires.</p>
+    <p><strong>Function:</strong> Creates immediate dramatic tension and clear stakes through interpersonal struggle.</p>
+    <p><strong>Examples:</strong> Harry Potter vs Voldemort, Sherlock Holmes vs Moriarty, Elizabeth Bennet vs Mr. Darcy (initially)</p>
+    <p><strong>Key Elements:</strong> Opposing motivations, clear antagonist, external obstacles, interpersonal dynamics</p>
+  </div>
+
+  <div class="conflict-type">
+    <h3>Person vs Self (Internal)</h3>
+    <p><strong>Nature:</strong> Internal struggle within a character's mind, heart, or moral compass.</p>
+    <p><strong>Function:</strong> Drives character development and explores psychological depth and moral complexity.</p>
+    <p><strong>Examples:</strong> Hamlet's indecision, Jekyll's dual nature, Raskolnikov's guilt (Crime and Punishment)</p>
+    <p><strong>Key Elements:</strong> Internal contradiction, moral dilemma, psychological tension, self-doubt</p>
+  </div>
+
+  <div class="conflict-type">
+    <h3>Person vs Society (Social)</h3>
+    <p><strong>Nature:</strong> Individual stands against social norms, institutions, or collective expectations.</p>
+    <p><strong>Function:</strong> Explores themes of conformity, justice, and individual rights versus collective good.</p>
+    <p><strong>Examples:</strong> Winston Smith vs Big Brother (1984), Atticus Finch vs racism (To Kill a Mockingbird)</p>
+    <p><strong>Key Elements:</strong> Social pressure, institutional power, moral courage, systemic opposition</p>
+  </div>
+
+  <div class="conflict-type">
+    <h3>Person vs Nature (Environmental)</h3>
+    <p><strong>Nature:</strong> Character struggles against natural forces, disasters, or environmental challenges.</p>
+    <p><strong>Function:</strong> Tests human resilience and explores themes of survival and humanity's relationship with nature.</p>
+    <p><strong>Examples:</strong> The Old Man and the Sea, Into the Wild, Life of Pi, The Perfect Storm</p>
+    <p><strong>Key Elements:</strong> Natural obstacles, survival instinct, human vulnerability, environmental forces</p>
+  </div>
+
+  <div class="conflict-type">
+    <h3>Person vs Technology/Supernatural</h3>
+    <p><strong>Nature:</strong> Character confronts artificial intelligence, supernatural forces, or technological systems.</p>
+    <p><strong>Function:</strong> Explores themes of progress, control, and the limits of human understanding.</p>
+    <p><strong>Examples:</strong> HAL 9000 vs crew (2001: A Space Odyssey), Exorcist vs demon, Terminator series</p>
+    <p><strong>Key Elements:</strong> Unknown forces, technological threat, supernatural elements, human agency</p>
+  </div>
+
+  <h2>Conflict Functions in Narrative</h2>
   <ul>
-    <li>Man vs. Self (internal conflict)</li>
-    <li>Man vs. Man</li>
-    <li>Man vs. Nature</li>
-    <li>Man vs. Society</li>
-    <li>Man vs. Machine / AI</li>
+    <li><strong>Plot Engine:</strong> Drives the story forward by creating obstacles that must be overcome</li>
+    <li><strong>Character Revealer:</strong> Forces characters to make choices that reveal their true nature</li>
+    <li><strong>Tension Creator:</strong> Maintains reader engagement through uncertainty and stakes</li>
+    <li><strong>Theme Vehicle:</strong> Embodies and explores the story's central ideas and messages</li>
+    <li><strong>Change Catalyst:</strong> Pressures characters to grow, adapt, or transform</li>
   </ul>
-  <p><strong>Why it matters:</strong> Conflict forces characters to evolve and keeps the audience engaged.</p>
-  <p><strong>Related concepts:</strong>
-    <a href="character_arc.html">Character Arc</a>,
-    <a href="theme.html">Theme</a>,
-    <a href="pacing.html">Pacing</a>
-  </p>
+
+  <div class="tension-scale">
+    <h3>Conflict Intensity Levels</h3>
+    <p><strong>Subtle Tension:</strong> Underlying disagreements, unspoken conflicts, simmering emotions</p>
+    <p><strong>Active Opposition:</strong> Direct confrontation, competing goals, visible struggle</p>
+    <p><strong>Crisis Point:</strong> Maximum tension, decisive moments, all-or-nothing stakes</p>
+    <p><strong>Resolution:</strong> Conflict conclusion, new equilibrium, changed circumstances</p>
+  </div>
+
+  <div class="examples">
+    <h3>Literary Examples Analysis</h3>
+    <p><strong>Romeo and Juliet:</strong> Multiple conflicts - lovers vs feuding families (person vs society), passion vs duty (person vs self)</p>
+    <p><strong>The Hunger Games:</strong> Katniss vs other tributes (person vs person), vs Capitol (person vs society), vs moral choices (person vs self)</p>
+    <p><strong>Moby Dick:</strong> Ahab vs whale (person vs nature), vs his obsession (person vs self), vs crew's concerns (person vs society)</p>
+  </div>
+
+  <div class="prompt-examples">
+    <h3>AI Prompt Examples</h3>
+    <p><strong>Internal Conflict:</strong> "Write about a surgeon who must operate on the drunk driver who killed their child."</p>
+    <p><strong>Social Conflict:</strong> "Create a story where a whistleblower exposes corruption in their own company despite personal costs."</p>
+    <p><strong>Environmental Conflict:</strong> "Develop a narrative about survivors of a volcanic eruption trying to reach safety."</p>
+    <p><strong>Multiple Conflicts:</strong> "Write a story combining family loyalty (internal), corporate pressure (social), and a natural disaster (environmental)."</p>
+  </div>
+
+  <div class="ai-note">
+    <h3>For AI Models</h3>
+    <p>When generating conflicts, consider: What does the character want? What prevents them from getting it? How does this obstacle reflect larger themes? Ensure conflicts are meaningful, escalate appropriately, and connect to <a href="character_motivation.html" class="concept-link">character motivation</a>. Layer multiple conflict types for complexity, but maintain clarity about the central struggle.</p>
+  </div>
+
+  <h2>Relationship to Other Concepts</h2>
+  <div class="relationships">
+    <p><strong>Drives:</strong> <a href="character_arc.html" class="concept-link">Character Arc</a> - Conflict forces character growth and transformation</p>
+    <p><strong>Embodies:</strong> <a href="theme.html" class="concept-link">Theme</a> - The nature of conflict often reflects the story's central message</p>
+    <p><strong>Structures:</strong> <a href="plot_structure.html" class="concept-link">Plot Structure</a> - Conflict escalation creates narrative beats and turning points</p>
+    <p><strong>Requires:</strong> <a href="character_motivation.html" class="concept-link">Character Motivation</a> - Clear motivations make conflicts meaningful and believable</p>
+    <p><strong>Expressed through:</strong> <a href="dialogue.html" class="concept-link">Dialogue</a>, <a href="voice.html" class="concept-link">Voice</a> - Conflict manifests in how characters speak and think</p>
+    <p><strong>Contextualizes:</strong> <a href="setting.html" class="concept-link">Setting</a> - Environment can be source of conflict or influence its nature</p>
+  </div>
+
+  <h2>Writing Techniques</h2>
+  <p><strong>Escalate gradually:</strong> Build tension through increasingly difficult obstacles rather than constant high intensity.</p>
+  <p><strong>Make it personal:</strong> Connect external conflicts to characters' internal struggles and deepest fears.</p>
+  <p><strong>Vary conflict types:</strong> Combine different conflict categories to create layered, complex narratives.</p>
+  <p><strong>Establish clear stakes:</strong> Ensure readers understand what characters stand to gain or lose.</p>
+  <p><strong>Provide worthy opposition:</strong> Make obstacles challenging enough to require genuine effort and growth.</p>
+
+  <div class="meta-info">
+    <p><strong>Category:</strong> Narrative Structure > Foundation Elements</p>
+    <p><strong>Complexity Level:</strong> Fundamental</p>
+    <p><strong>AI Relevance:</strong> Critical - Essential for generating any compelling narrative</p>
+    <p><strong>Related Concepts:</strong> 
+      <a href="character_arc.html">Character Arc</a> • 
+      <a href="theme.html">Theme</a> • 
+      <a href="character_motivation.html">Character Motivation</a> • 
+      <a href="plot_structure.html">Plot Structure</a> • 
+      <a href="protagonist.html">Protagonist</a> • 
+      <a href="antagonist.html">Antagonist</a>
+    </p>
+  </div>
 </body>
 </html>

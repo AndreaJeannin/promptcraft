@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice - Promptcraft</title>
+  <meta name="concept-id" content="voice">
+  <meta name="category" content="narrative_craft">
+  <meta name="subcategory" content="style_and_voice">
+  <meta name="complexity-level" content="advanced">
+  <meta name="ai-relevance" content="critical">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Voice",
+    "definition": "The distinctive style, personality, and perspective that comes through in writing, encompassing both author's voice and character voice",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Promptcraft Writing Concepts"
+    },
+    "broader": "Narrative Craft",
+    "related": ["Point of View", "Tone", "Style", "Character Arc", "Dialogue"],
+    "examples": ["First-person narrator", "Authorial voice", "Character voice", "Unreliable narrator"]
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; color: #333; padding: 0 2em; }
+    h1 { font-size: 2.2em; color: #2c3e50; border-bottom: 3px solid #1abc9c; padding-bottom: 0.5em; }
+    h2 { color: #34495e; margin-top: 2em; }
+    .definition { background-color: #f8f9fa; padding: 1.5em; border-left: 4px solid #1abc9c; margin: 1em 0; font-size: 1.1em; }
+    .voice-type { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 1em 0; border-radius: 5px; }
+    .voice-type h3 { color: #1abc9c; margin-top: 0; }
+    .voice-examples { background-color: #e8f8f5; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .prompt-examples { background-color: #f0f8e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .relationships { background-color: #e8f8fd; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .meta-info { font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 1em; margin-top: 2em; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .concept-link { background-color: #ecf0f1; padding: 0.3em 0.6em; border-radius: 3px; margin: 0 0.2em; }
+    .ai-note { background-color: #e3f2fd; padding: 1em; border-radius: 5px; margin: 1em 0; border-left: 4px solid #2196f3; }
+    .voice-elements { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0; }
+    .element-card { background-color: #f8f9fa; padding: 1em; border-radius: 5px; border-left: 3px solid #1abc9c; }
+    .voice-sample { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 0.5em 0; border-radius: 5px; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>Voice</h1>
+  
+  <div class="definition">
+    <strong>Definition:</strong> Voice is the distinctive style, personality, and perspective that comes through in writing. It encompasses word choice, sentence structure, rhythm, attitude, and the unique way a story is told. Voice can refer to the author's voice (the writer's distinctive style) or character voice (how individual characters express themselves). It's what makes writing recognizable and memorable.
+  </div>
+
+  <h2>Types of Voice</h2>
+  
+  <div class="voice-type">
+    <h3>Narrative Voice (Narrator's Voice)</h3>
+    <p><strong>Function:</strong> The voice that tells the story, distinct from both author and characters</p>
+    <p><strong>Characteristics:</strong> Determined by <a href="point_of_view.html" class="concept-link">point of view</a>, reliability, knowledge level, and personality</p>
+    <p><strong>Types:</strong></p>
+    <ul>
+      <li><strong>Reliable Narrator:</strong> Trustworthy, accurate reporting of events</li>
+      <li><strong>Unreliable Narrator:</strong> Biased, limited, or deceptive perspective</li>
+      <li><strong>Omniscient Narrator:</strong> All-knowing, can access any character's thoughts</li>
+      <li><strong>Limited Narrator:</strong> Restricted knowledge and perspective</li>
+    </ul>
+  </div>
+
+  <div class="voice-type">
+    <h3>Character Voice</h3>
+    <p><strong>Function:</strong> Each character's distinctive way of speaking and thinking</p>
+    <p><strong>Elements:</strong> Vocabulary, grammar, rhythm, regional dialect, education level, personality quirks</p>
+    <p><strong>Consistency Rule:</strong> Characters should maintain their voice unless undergoing significant development</p>
+    <p><strong>Voice vs. Dialogue:</strong> Voice includes internal thoughts and narration, not just spoken words</p>
+  </div>
+
+  <div class="voice-type">
+    <h3>Authorial Voice</h3>
+    <p><strong>Function:</strong> The writer's distinctive style that transcends individual works</p>
+    <p><strong>Recognition:</strong> Readers can identify the author even without seeing the byline</p>
+    <p><strong>Development:</strong> Emerges over time through consistent choices in style, theme, and approach</p>
+    <p><strong>Examples:</strong> Hemingway's sparse prose, Dickens' elaborate descriptions, Austen's wit</p>
+  </div>
+
+  <h2>Elements of Voice</h2>
+  
+  <div class="voice-elements">
+    <div class="element-card">
+      <h4>Diction (Word Choice)</h4>
+      <p>Formal vs. informal, simple vs. complex, modern vs. archaic, technical vs. colloquial</p>
+    </div>
+    <div class="element-card">
+      <h4>Syntax (Sentence Structure)</h4>
+      <p>Short vs. long sentences, simple vs. complex grammar, fragment usage, parallel structure</p>
+    </div>
+    <div class="element-card">
+      <h4>Rhythm & Pacing</h4>
+      <p>Quick staccato vs. flowing prose, varied sentence lengths, use of pauses and emphasis</p>
+    </div>
+    <div class="element-card">
+      <h4>Attitude & Tone</h4>
+      <p>Serious, humorous, cynical, optimistic, sarcastic, reverent, playful</p>
+    </div>
+    <div class="element-card">
+      <h4>Perspective & Worldview</h4>
+      <p>How the voice sees and interprets the world, what they notice and ignore</p>
+    </div>
+    <div class="element-card">
+      <h4>Cultural & Personal Background</h4>
+      <p>Education, social class, regional influences, generational markers, life experiences</p>
+    </div>
+  </div>
+
+  <div class="voice-examples">
+    <h3>Voice Examples & Analysis</h3>
+    
+    <div class="voice-sample">
+      <strong>Hemingway (Spare, Direct):</strong><br>
+      "The sun rose. Jake walked to the café. He ordered coffee. Black."
+      <p><em>Analysis: Short sentences, minimal adjectives, understated emotion</em></p>
+    </div>
+    
+    <div class="voice-sample">
+      <strong>Dickens (Elaborate, Descriptive):</strong><br>
+      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness..."
+      <p><em>Analysis: Parallel structure, contradictions, grand sweeping statements</em></p>
+    </div>
+    
+    <div class="voice-sample">
+      <strong>Holden Caulfield (Colloquial, Cynical):</strong><br>
+      "If you really want to hear about it, the first thing you'll probably want to know is where I was born, and what my lousy childhood was like..."
+      <p><em>Analysis: Conversational tone, slang, dismissive attitude, direct address</em></p>
+    </div>
+    
+    <div class="voice-sample">
+      <strong>Jane Austen (Witty, Ironic):</strong><br>
+      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+      <p><em>Analysis: Formal structure with subtle irony, social commentary through understatement</em></p>
+    </div>
+  </div>
+
+  <h2>Voice Development Techniques</h2>
+  
+  <p><strong>Read Aloud:</strong> Voice should sound natural when spoken</p>
+  <p><strong>Character Interviews:</strong> Understand how your character would speak in different situations</p>
+  <p><strong>Voice Journals:</strong> Write diary entries in character voice to develop consistency</p>
+  <p><strong>Contrast Exercises:</strong> Write the same scene in different character voices</p>
+  <p><strong>Voice Mapping:</strong> Document each character's speech patterns, vocabulary, and quirks</p>
+  <p><strong>Emotional Range:</strong> Test how voice changes under different emotional states</p>
+
+  <div class="prompt-examples">
+    <h3>AI Prompt Examples</h3>
+    <p><strong>Character Voice:</strong> "Write a scene from the perspective of a cynical 16-year-old who uses modern slang but is surprisingly philosophical about life."</p>
+    <p><strong>Unreliable Narrator:</strong> "Tell a story about a bank robbery from the perspective of someone who claims to be innocent but whose account doesn't quite add up."</p>
+    <p><strong>Distinctive Voice:</strong> "Create a narrator who speaks in short, clipped sentences and notices only practical details, never emotions or beauty."</p>
+    <p><strong>Voice Evolution:</strong> "Show how a character's voice changes from bitter and sarcastic to hopeful and open as they heal from trauma."</p>
+  </div>
+
+  <div class="ai-note">
+    <h3>For AI Models</h3>
+    <p>When creating voice: Consider the character's background, education, personality, and current emotional state. Maintain consistency in word choice, sentence structure, and perspective. Voice should feel natural and serve the story—distinctive but not distracting. Remember that voice can evolve with <a href="character_arc.html" class="concept-link">character development</a>, but changes should be gradual and motivated. Use voice to reveal character rather than just describe them.</p>
+  </div>
+
+  <h2>Voice and Genre</h2>
+  <p><strong>Literary Fiction:</strong> Often emphasizes unique, artistic voice over plot</p>
+  <p><strong>Mystery:</strong> Voice creates atmosphere and guides reader attention</p>
+  <p><strong>Romance:</strong> Voice conveys emotion and creates intimacy</p>
+  <p><strong>Horror:</strong> Voice builds tension and unease</p>
+  <p><strong>Fantasy/Sci-Fi:</strong> Voice helps establish world and time period</p>
+  <p><strong>Historical Fiction:</strong> Voice must feel authentic to time period</p>
+
+  <h2>Common Voice Pitfalls</h2>
+  <p><strong>Inconsistency:</strong> Character voice changes without motivation</p>
+  <p><strong>Over-Stylization:</strong> Voice becomes so distinctive it distracts from story</p>
+  <p><strong>Author Intrusion:</strong> Writer's voice bleeds through character voice</p>
+  <p><strong>Stereotypical Voices:</strong> Relying on clichéd speech patterns</p>
+  <p><strong>Same Voice for All:</strong> Every character sounds identical</p>
+  <p><strong>Forced Uniqueness:</strong> Making voice weird for the sake of being different</p>
+
+  <h2>Relationship to Other Concepts</h2>
+  <div class="relationships">
+    <p><strong>Determined by:</strong> <a href="point_of_view.html" class="concept-link">Point of View</a> - POV choice affects voice possibilities</p>
+    <p><strong>Expresses:</strong> <a href="character_arc.html" class="concept-link">Character Arc</a> - Voice can show character growth</p>
+    <p><strong>Creates:</strong> <a href="tone.html" class="concept-link">Tone</a> - Voice contributes to story's emotional atmosphere</p>
+    <p><strong>Manifests in:</strong> <a href="dialogue.html" class="concept-link">Dialogue</a> - Characters' speech patterns reflect their voice</p>
+    <p><strong>Influences:</strong> <a href="pacing.html" class="concept-link">Pacing</a> - Voice affects story rhythm through sentence structure</p>
+    <p><strong>Supports:</strong> <a href="theme.html" class="concept-link">Theme</a> - Voice can reinforce thematic elements</p>
+  </div>
+
+  <div class="meta-info">
+    <p><strong>Category:</strong> Narrative Craft > Style and Voice</p>
+    <p><strong>Complexity Level:</strong> Advanced</p>
+    <p><strong>AI Relevance:</strong> Critical - Essential for creating believable, engaging narratives</p>
+    <p><strong>Related Concepts:</strong> 
+      <a href="point_of_view.html">Point of View</a> • 
+      <a href="dialogue.html">Dialogue</a> • 
+      <a href="tone.html">Tone</a> • 
+      <a href="character_arc.html">Character Arc</a> • 
+      <a href="style.html">Style</a>
+    </p>
+  </div>
+</body>
+</html>

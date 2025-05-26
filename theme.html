@@ -5,16 +5,179 @@
   <title>Theme - Promptcraft</title>
   <meta name="concept-id" content="theme">
   <meta name="category" content="narrative_structure">
+  <meta name="subcategory" content="foundation_elements">
+  <meta name="complexity-level" content="advanced">
+  <meta name="ai-relevance" content="high">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Theme",
+    "definition": "The underlying message, central idea, or universal truth explored throughout a narrative",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Promptcraft Writing Concepts"
+    },
+    "broader": "Narrative Structure",
+    "related": ["Conflict", "Character Arc", "Symbolism", "Motif"],
+    "examples": ["Love conquers all", "Power corrupts", "Coming of age", "Good vs evil"]
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; color: #333; padding: 0 2em; }
+    h1 { font-size: 2.2em; color: #2c3e50; border-bottom: 3px solid #9b59b6; padding-bottom: 0.5em; }
+    h2 { color: #34495e; margin-top: 2em; }
+    .definition { background-color: #f8f9fa; padding: 1.5em; border-left: 4px solid #9b59b6; margin: 1em 0; font-size: 1.1em; }
+    .theme-category { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 1em 0; border-radius: 5px; }
+    .theme-category h3 { color: #9b59b6; margin-top: 0; }
+    .examples { background-color: #e8f4f8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .prompt-examples { background-color: #f0f8e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .relationships { background-color: #f3e5f5; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .meta-info { font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 1em; margin-top: 2em; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .concept-link { background-color: #ecf0f1; padding: 0.3em 0.6em; border-radius: 3px; margin: 0 0.2em; }
+    .ai-note { background-color: #e3f2fd; padding: 1em; border-radius: 5px; margin: 1em 0; border-left: 4px solid #2196f3; }
+    .theme-techniques { background-color: #fff8e1; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .universal-themes { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: 1em 0; }
+    .theme-item { background-color: #f8f9fa; padding: 1em; border-radius: 5px; border-left: 3px solid #9b59b6; }
+  </style>
 </head>
 <body>
   <h1>Theme</h1>
-  <p><strong>Definition:</strong> The theme is the underlying message, idea, or moral explored in a story.</p>
-  <p><strong>Examples:</strong> Love conquers all. Power corrupts. Freedom vs. control.</p>
-  <p><strong>Why it matters:</strong> A theme provides cohesion and resonance across scenes and characters. It gives depth to conflict and helps readers connect emotionally.</p>
-  <p><strong>Related concepts:</strong>
-    <a href="conflict.html">Conflict</a>,
-    <a href="character_arc.html">Character Arc</a>,
-    <a href="genre.html">Genre</a>
-  </p>
+  
+  <div class="definition">
+    <strong>Definition:</strong> Theme is the underlying message, central idea, or universal truth that a story explores and communicates to its audience. It's not what happens in the story, but what the story means—the deeper significance that emerges from the interplay of <a href="character_arc.html" class="concept-link">character</a>, <a href="conflict.html" class="concept-link">conflict</a>, and plot events. Themes give stories emotional resonance and lasting impact.
+  </div>
+
+  <h2>Universal Theme Categories</h2>
+  
+  <div class="universal-themes">
+    <div class="theme-item">
+      <h4>Love & Relationships</h4>
+      <p>Love conquers all, forbidden love, unrequited love, family bonds, friendship, betrayal</p>
+    </div>
+    <div class="theme-item">
+      <h4>Power & Corruption</h4>
+      <p>Absolute power corrupts, abuse of authority, revolution, justice vs. law, moral compromise</p>
+    </div>
+    <div class="theme-item">
+      <h4>Identity & Self-Discovery</h4>
+      <p>Coming of age, finding oneself, belonging, alienation, authenticity vs. conformity</p>
+    </div>
+    <div class="theme-item">
+      <h4>Good vs. Evil</h4>
+      <p>Moral struggle, redemption, temptation, heroism, the nature of evil</p>
+    </div>
+    <div class="theme-item">
+      <h4>Life & Death</h4>
+      <p>Mortality, meaning of life, sacrifice, survival, legacy, grief and loss</p>
+    </div>
+    <div class="theme-item">
+      <h4>Freedom & Control</h4>
+      <p>Individual liberty, oppression, rebellion, choice vs. fate, social conformity</p>
+    </div>
+    <div class="theme-item">
+      <h4>Truth & Deception</h4>
+      <p>Seeking truth, lies and consequences, appearance vs. reality, self-deception</p>
+    </div>
+    <div class="theme-item">
+      <h4>Hope & Despair</h4>
+      <p>Overcoming adversity, perseverance, faith, disillusionment, redemption</p>
+    </div>
+  </div>
+
+  <h2>How Themes Function in Stories</h2>
+  
+  <div class="theme-category">
+    <h3>Implicit vs. Explicit Themes</h3>
+    <p><strong>Implicit (Subtle):</strong> Theme emerges naturally from story events without direct statement. Reader discovers meaning through character actions and consequences.</p>
+    <p><strong>Explicit (Direct):</strong> Theme is clearly stated through dialogue, narration, or character reflection. Can be effective but risks being preachy.</p>
+    <p><strong>Best Practice:</strong> Show theme through action and consequence rather than telling through exposition.</p>
+  </div>
+
+  <div class="theme-category">
+    <h3>Thematic Questions</h3>
+    <p>Great themes often pose questions rather than provide answers:</p>
+    <ul>
+      <li>"What is the cost of revenge?" (Hamlet, The Count of Monte Cristo)</li>
+      <li>"Can love overcome social barriers?" (Romeo and Juliet, Pride and Prejudice)</li>
+      <li>"What makes someone human?" (Frankenstein, Blade Runner)</li>
+      <li>"Is knowledge always beneficial?" (Faust, Jurassic Park)</li>
+    </ul>
+  </div>
+
+  <div class="examples">
+    <h3>Theme Analysis Examples</h3>
+    <p><strong>To Kill a Mockingbird:</strong> Prejudice and moral courage - Atticus defending Tom Robinson demonstrates fighting injustice despite social pressure</p>
+    <p><strong>The Great Gatsby:</strong> The corruption of the American Dream - Gatsby's pursuit of wealth and status ultimately destroys him</p>
+    <p><strong>1984:</strong> Totalitarian control vs. individual freedom - Winston's struggle represents the human spirit's resistance to oppression</p>
+    <p><strong>The Lord of the Rings:</strong> Good vs. evil, power's corruption - The Ring represents how power corrupts even the well-intentioned</p>
+  </div>
+
+  <div class="theme-techniques">
+    <h3>Techniques for Developing Theme</h3>
+    <p><strong>Character Arcs:</strong> Character transformation should reflect thematic growth</p>
+    <p><strong>Conflict Resolution:</strong> How conflicts resolve reveals thematic stance</p>
+    <p><strong>Symbolism:</strong> Objects, settings, or actions that represent thematic ideas</p>
+    <p><strong>Motifs:</strong> Recurring elements that reinforce thematic concepts</p>
+    <p><strong>Dialogue:</strong> Characters debate or discuss thematic questions</p>
+    <p><strong>Consequences:</strong> Character choices lead to outcomes that illustrate theme</p>
+  </div>
+
+  <div class="prompt-examples">
+    <h3>AI Prompt Examples</h3>
+    <p><strong>Power Theme:</strong> "Write a story where a well-meaning leader gradually becomes tyrannical, showing how power changes people even with good intentions."</p>
+    <p><strong>Identity Theme:</strong> "Create a character who must choose between family expectations and personal dreams, exploring what it means to be true to oneself."</p>
+    <p><strong>Truth Theme:</strong> "Develop a narrative where revealing the truth would hurt innocent people, examining when lies might be justified."</p>
+    <p><strong>Multiple Themes:</strong> "Write about a character seeking revenge who discovers that justice and vengeance are not the same thing, incorporating themes of both justice and forgiveness."</p>
+  </div>
+
+  <div class="ai-note">
+    <h3>For AI Models</h3>
+    <p>When working with themes: Start with the story's central conflict and ask what larger questions it raises. Let theme emerge from character choices and their consequences. Avoid heavy-handed messaging—instead, present situations that naturally explore thematic questions. Multiple characters can represent different perspectives on the same theme. Remember that great themes are complex and often paradoxical rather than simple moral lessons.</p>
+  </div>
+
+  <h2>Theme Development Process</h2>
+  <ol>
+    <li><strong>Identify Core Question:</strong> What fundamental human question does your story address?</li>
+    <li><strong>Embed in Conflict:</strong> Make your main conflict represent the thematic struggle</li>
+    <li><strong>Character Perspectives:</strong> Give different characters different viewpoints on the theme</li>
+    <li><strong>Show Through Action:</strong> Demonstrate theme through character choices and consequences</li>
+    <li><strong>Reinforce Subtly:</strong> Use symbolism, setting, and motifs to support the theme</li>
+    <li><strong>Avoid Preaching:</strong> Let readers discover the theme rather than stating it directly</li>
+  </ol>
+
+  <h2>Common Theme Pitfalls</h2>
+  <p><strong>Being Too Heavy-Handed:</strong> Forcing theme through obvious symbolism or preachy dialogue</p>
+  <p><strong>Theme Without Story:</strong> Focusing so much on message that plot and characters suffer</p>
+  <p><strong>Oversimplification:</strong> Reducing complex issues to simple moral statements</p>
+  <p><strong>Inconsistent Messaging:</strong> Character actions contradicting the intended theme</p>
+  <p><strong>Multiple Unrelated Themes:</strong> Trying to address too many disparate ideas</p>
+
+  <h2>Relationship to Other Concepts</h2>
+  <div class="relationships">
+    <p><strong>Emerges from:</strong> <a href="conflict.html" class="concept-link">Conflict</a> - Thematic questions arise from character struggles</p>
+    <p><strong>Expressed through:</strong> <a href="character_arc.html" class="concept-link">Character Arc</a> - Character growth embodies thematic development</p>
+    <p><strong>Reinforced by:</strong> <a href="symbolism.html" class="concept-link">Symbolism</a> - Symbols represent thematic concepts</p>
+    <p><strong>Supported by:</strong> <a href="setting.html" class="concept-link">Setting</a> - Environment can reflect or contrast theme</p>
+    <p><strong>Revealed in:</strong> <a href="dialogue.html" class="concept-link">Dialogue</a> - Characters discuss or embody thematic ideas</p>
+    <p><strong>Influences:</strong> <a href="tone.html" class="concept-link">Tone</a> - Thematic content affects story's emotional atmosphere</p>
+  </div>
+
+  <div class="meta-info">
+    <p><strong>Category:</strong> Narrative Structure > Foundation Elements</p>
+    <p><strong>Complexity Level:</strong> Advanced</p>
+    <p><strong>AI Relevance:</strong> High - Essential for creating meaningful, resonant narratives</p>
+    <p><strong>Related Concepts:</strong> 
+      <a href="conflict.html">Conflict</a> • 
+      <a href="character_arc.html">Character Arc</a> • 
+      <a href="symbolism.html">Symbolism</a> • 
+      <a href="motif.html">Motif</a> • 
+      <a href="tone.html">Tone</a>
+    </p>
+  </div>
 </body>
 </html>

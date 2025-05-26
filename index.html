@@ -2,25 +2,162 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Promptcraft</title>
-  <meta name="description" content="A semantic toolkit for creative writing and AI prompt design.">
+  <title>Promptcraft - Semantic Writing Toolkit</title>
+  <meta name="description" content="A comprehensive semantic toolkit for creative writing and AI prompt design with interconnected narrative concepts.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Promptcraft",
+    "description": "A semantic writing toolkit for both humans and AI",
+    "url": "https://promptcraft.dev",
+    "keywords": ["creative writing", "AI prompting", "narrative structure", "storytelling", "semantic toolkit"]
+  }
+  </script>
   <style>
-    body { font-family: sans-serif; max-width: 700px; margin: 2em auto; line-height: 1.6; }
-    h1 { font-size: 2em; }
-    nav a { display: block; margin: 0.5em 0; }
+    body { 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      max-width: 900px; 
+      margin: 2em auto; 
+      line-height: 1.6; 
+      color: #333;
+      padding: 0 2em;
+    }
+    h1 { 
+      font-size: 2.5em; 
+      color: #2c3e50;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 0.5em;
+    }
+    h2 { 
+      color: #34495e; 
+      margin-top: 2em;
+    }
+    .category-section {
+      margin: 2em 0;
+      padding: 1.5em;
+      border-left: 4px solid #3498db;
+      background-color: #f8f9fa;
+    }
+    .category-title {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 1em;
+    }
+    nav a { 
+      display: inline-block;
+      margin: 0.5em 1em 0.5em 0; 
+      padding: 0.5em 1em;
+      background-color: #ecf0f1;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #2c3e50;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #3498db;
+      color: white;
+    }
+    .stats {
+      background-color: #e8f4f8;
+      padding: 1em;
+      border-radius: 5px;
+      margin: 1em 0;
+    }
+    .intro {
+      font-size: 1.1em;
+      color: #555;
+    }
   </style>
 </head>
 <body>
   <h1>Promptcraft</h1>
-  <p><em>Promptcraft</em> is a semantic writing toolkit for both humans and AI. It defines and interlinks key concepts of narrative design—making them understandable to language models and inspiring for writers.</p>
-  <h2>Start exploring</h2>
-  <nav>
-    <a href="conflict.html">Conflict</a>
-    <a href="theme.html">Theme</a>
-    <a href="character_arc.html">Character Arc</a>
-    <a href="worldbuilding.html">Worldbuilding</a>
-    <a href="voice.html">Voice</a>
-    <a href="prompt.html">Prompt</a>
-  </nav>
+  <p class="intro"><em>Promptcraft</em> is a comprehensive semantic writing toolkit designed for both humans and AI. It defines, categorizes, and interlinks key concepts of narrative design—creating a structured knowledge base that's accessible to language models and inspiring for writers.</p>
+  
+  <div class="stats">
+    <strong>Current Status:</strong> 5 core concepts • 3 main categories • Semantic relationships mapped • AI-optimized structure
+  </div>
+
+  <h2>Narrative Structure</h2>
+  <div class="category-section">
+    <div class="category-title">Foundation Elements</div>
+    <p>Core structural components that shape how stories unfold and engage audiences.</p>
+    <nav>
+      <a href="conflict.html" data-concept="conflict">Conflict</a>
+      <a href="theme.html" data-concept="theme">Theme</a>
+      <a href="plot_structure.html" data-concept="plot_structure">Plot Structure</a>
+      <a href="pacing.html" data-concept="pacing">Pacing</a>
+    </nav>
+  </div>
+
+  <h2>Character Development</h2>
+  <div class="category-section">
+    <div class="category-title">Character Dynamics</div>
+    <p>Elements that define characters and their evolution throughout the narrative.</p>
+    <nav>
+      <a href="character_arc.html" data-concept="character_arc">Character Arc</a>
+      <a href="protagonist.html" data-concept="protagonist">Protagonist</a>
+      <a href="antagonist.html" data-concept="antagonist">Antagonist</a>
+      <a href="character_motivation.html" data-concept="character_motivation">Character Motivation</a>
+    </nav>
+  </div>
+
+  <h2>Narrative Craft</h2>
+  <div class="category-section">
+    <div class="category-title">Style & Voice</div>
+    <p>Technical and artistic elements that define how stories are told.</p>
+    <nav>
+      <a href="voice.html" data-concept="voice">Voice</a>
+      <a href="point_of_view.html" data-concept="point_of_view">Point of View</a>
+      <a href="dialogue.html" data-concept="dialogue">Dialogue</a>
+      <a href="setting.html" data-concept="setting">Setting</a>
+    </nav>
+  </div>
+
+  <h2>World & Genre</h2>
+  <div class="category-section">
+    <div class="category-title">Context & Framework</div>
+    <p>Elements that establish the story's universe and genre conventions.</p>
+    <nav>
+      <a href="worldbuilding.html" data-concept="worldbuilding">Worldbuilding</a>
+      <a href="genre.html" data-concept="genre">Genre</a>
+      <a href="atmosphere.html" data-concept="atmosphere">Atmosphere</a>
+    </nav>
+  </div>
+
+  <h2>AI Interaction</h2>
+  <div class="category-section">
+    <div class="category-title">Prompt Engineering</div>
+    <p>Tools and techniques for effective AI-assisted creative writing.</p>
+    <nav>
+      <a href="prompt.html" data-concept="prompt">Prompt</a>
+      <a href="prompt_structure.html" data-concept="prompt_structure">Prompt Structure</a>
+      <a href="creative_constraints.html" data-concept="creative_constraints">Creative Constraints</a>
+    </nav>
+  </div>
+
+  <h2>How to Use Promptcraft</h2>
+  <p><strong>For Writers:</strong> Explore interconnected concepts to deepen your understanding of narrative craft. Each page provides definitions, examples, and connections to related elements.</p>
+  <p><strong>For AI Developers:</strong> Use the structured semantic data and clear definitions to improve prompt engineering and creative AI applications.</p>
+  <p><strong>For AI Models:</strong> Reference these concepts to better understand creative writing requests and generate more sophisticated, structurally sound narratives.</p>
+
+  <script>
+    // Simple concept relationship tracker
+    const conceptGraph = {
+      nodes: ['conflict', 'theme', 'character_arc', 'voice', 'worldbuilding', 'prompt'],
+      relationships: {
+        'conflict': ['drives', 'character_arc'],
+        'theme': ['emerges_through', 'conflict'],
+        'character_arc': ['requires', 'conflict'],
+        'voice': ['expresses', 'theme'],
+        'worldbuilding': ['provides_context_for', 'conflict'],
+        'prompt': ['can_specify', 'theme', 'voice', 'conflict']
+      }
+    };
+    
+    // Log concept relationships for debugging
+    console.log('Promptcraft Concept Graph:', conceptGraph);
+  </script>
 </body>
 </html>

@@ -5,21 +5,140 @@
   <title>Prompt - Promptcraft</title>
   <meta name="concept-id" content="prompt">
   <meta name="category" content="ai_interaction">
+  <meta name="subcategory" content="prompt_engineering">
+  <meta name="complexity-level" content="intermediate">
+  <meta name="ai-relevance" content="very_high">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Prompt",
+    "definition": "A structured input or instruction given to an AI model to elicit a specific type of creative response",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Promptcraft Writing Concepts"
+    },
+    "broader": "AI Interaction",
+    "related": ["Prompt Structure", "Creative Constraints", "Voice", "Theme"],
+    "examples": ["Character Creation Prompt", "Scene Generation Prompt", "Style Transfer Prompt"]
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 2em auto; line-height: 1.6; color: #333; padding: 0 2em; }
+    h1 { font-size: 2.2em; color: #2c3e50; border-bottom: 3px solid #9b59b6; padding-bottom: 0.5em; }
+    h2 { color: #34495e; margin-top: 2em; }
+    .definition { background-color: #f8f9fa; padding: 1.5em; border-left: 4px solid #9b59b6; margin: 1em 0; font-size: 1.1em; }
+    .prompt-type { background-color: #fff; border: 1px solid #ddd; padding: 1em; margin: 1em 0; border-radius: 5px; }
+    .prompt-type h3 { color: #9b59b6; margin-top: 0; }
+    .examples { background-color: #e8f4f8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .prompt-examples { background-color: #f0f8e8; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .relationships { background-color: #fff3cd; padding: 1em; border-radius: 5px; margin: 1em 0; }
+    .meta-info { font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 1em; margin-top: 2em; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .concept-link { background-color: #ecf0f1; padding: 0.3em 0.6em; border-radius: 3px; margin: 0 0.2em; }
+    .ai-note { background-color: #e3f2fd; padding: 1em; border-radius: 5px; margin: 1em 0; border-left: 4px solid #2196f3; }
+    .prompt-demo { background-color: #f5f5f5; padding: 1em; border-radius: 5px; margin: 1em 0; font-family: 'Courier New', monospace; border-left: 4px solid #9b59b6; }
+  </style>
 </head>
 <body>
   <h1>Prompt</h1>
-  <p><strong>Definition:</strong> A prompt is an instruction, question, or idea used to initiate a creative response, often from a human or AI.</p>
-  <p><strong>Use in AI:</strong> Prompts guide generative models to produce specific narrative, stylistic, or structural outcomes.</p>
-  <p><strong>Prompt types:</strong></p>
+  
+  <div class="definition">
+    <strong>Definition:</strong> A prompt is a structured input or instruction given to an AI model to elicit a specific type of creative response. It serves as the bridge between human creative intent and AI-generated content, combining context, constraints, and desired outcomes to guide the model's output.
+  </div>
+
+  <h2>Types of Prompts</h2>
+  
+  <div class="prompt-type">
+    <h3>Generative Prompts</h3>
+    <p><strong>Purpose:</strong> Create new content from scratch based on specified parameters.</p>
+    <p><strong>Structure:</strong> Context + Creative Goal + Constraints + Style</p>
+    <p><strong>Examples:</strong> "Write a fantasy story about...", "Create a character who...", "Generate dialogue between..."</p>
+    <p><strong>Key Elements:</strong> Clear creative objective, genre specification, length requirements, tone guidance</p>
+  </div>
+
+  <div class="prompt-type">
+    <h3>Analytical Prompts</h3>
+    <p><strong>Purpose:</strong> Analyze, critique, or improve existing creative work.</p>
+    <p><strong>Structure:</strong> Text + Analysis Goal + Focus Areas + Output Format</p>
+    <p><strong>Examples:</strong> "Analyze the character development in...", "Identify plot holes in...", "Suggest improvements for..."</p>
+    <p><strong>Key Elements:</strong> Specific analytical framework, clear evaluation criteria, constructive feedback focus</p>
+  </div>
+
+  <div class="prompt-type">
+    <h3>Collaborative Prompts</h3>
+    <p><strong>Purpose:</strong> Work iteratively with AI to develop ideas or refine content.</p>
+    <p><strong>Structure:</strong> Initial Concept + Development Direction + Interaction Style + Feedback Loop</p>
+    <p><strong>Examples:</strong> "Help me develop this character by...", "Let's brainstorm plot points for...", "Refine this scene by..."</p>
+    <p><strong>Key Elements:</strong> Interactive framework, clear role definition, iterative process, feedback incorporation</p>
+  </div>
+
+  <h2>Prompt Components</h2>
   <ul>
-    <li><strong>Descriptive:</strong> “Describe a forest at night.”</li>
-    <li><strong>Instructional:</strong> “Write a story where the hero fails.”</li>
-    <li><strong>Seed prompt:</strong> Partial sentence or concept to expand.</li>
+    <li><strong>Context Setting:</strong> Background information and creative framework</li>
+    <li><strong>Task Definition:</strong> Clear specification of desired output</li>
+    <li><strong>Creative Constraints:</strong> Limitations that guide and focus creativity</li>
+    <li><strong>Style Guidelines:</strong> Voice, tone, and aesthetic preferences</li>
+    <li><strong>Quality Indicators:</strong> Success metrics and evaluation criteria</li>
   </ul>
-  <p><strong>Related concepts:</strong>
-    <a href="theme.html">Theme</a>,
-    <a href="voice.html">Voice</a>,
-    <a href="genre.html">Genre</a>
-  </p>
+
+  <div class="prompt-demo">
+    <h3>Well-Structured Prompt Example</h3>
+    <p><strong>Context:</strong> "In a cyberpunk setting where memories can be digitally extracted..."</p>
+    <p><strong>Task:</strong> "...create a character who discovers their childhood memories are fabricated."</p>
+    <p><strong>Constraints:</strong> "Focus on their emotional journey, 500-800 words, third person limited POV."</p>
+    <p><strong>Style:</strong> "Write in a noir style with philosophical undertones about identity and truth."</p>
+  </div>
+
+  <div class="examples">
+    <h3>Effective Prompt Strategies</h3>
+    <p><strong>Specificity over Vagueness:</strong> "Create a reluctant hero who fears responsibility" vs "Write about a hero"</p>
+    <p><strong>Constraint-Driven Creativity:</strong> "Write a love story told entirely through text messages" vs "Write a love story"</p>
+    <p><strong>Multi-Layer Instructions:</strong> Combine content goals with style requirements and structural guidelines</p>
+  </div>
+
+  <div class="prompt-examples">
+    <h3>Prompt Templates by Purpose</h3>
+    <p><strong>Character Development:</strong> "Create a [character type] who [internal conflict] and must [external challenge] while [constraint/limitation]."</p>
+    <p><strong>Scene Writing:</strong> "Write a scene where [characters] [action] while [subtext/tension] unfolds, emphasizing [theme/emotion]."</p>
+    <p><strong>World Building:</strong> "Design a [setting type] where [unique rule/element] affects [aspect of society/life], showing [consequences/implications]."</p>
+  </div>
+
+  <div class="ai-note">
+    <h3>For AI Models</h3>
+    <p>When receiving prompts, identify: the creative goal, constraints, style requirements, and success metrics. Look for implicit requirements in addition to explicit instructions. Consider how the prompt relates to broader narrative concepts like <a href="theme.html" class="concept-link">theme</a>, <a href="character_arc.html" class="concept-link">character arc</a>, and <a href="conflict.html" class="concept-link">conflict</a>.</p>
+  </div>
+
+  <h2>Relationship to Other Concepts</h2>
+  <div class="relationships">
+    <p><strong>Utilizes:</strong> <a href="prompt_structure.html" class="concept-link">Prompt Structure</a> - Organized framework for effective communication</p>
+    <p><strong>Incorporates:</strong> <a href="creative_constraints.html" class="concept-link">Creative Constraints</a> - Limitations that enhance creative focus</p>
+    <p><strong>Can Specify:</strong> <a href="voice.html" class="concept-link">Voice</a>, <a href="theme.html" class="concept-link">Theme</a>, <a href="genre.html" class="concept-link">Genre</a> - Target creative elements</p>
+    <p><strong>Guides Creation of:</strong> <a href="character_arc.html" class="concept-link">Character Arc</a>, <a href="conflict.html" class="concept-link">Conflict</a>, <a href="plot_structure.html" class="concept-link">Plot Structure</a></p>
+    <p><strong>Depends on:</strong> Clear communication, creative vision, understanding of AI capabilities</p>
+  </div>
+
+  <h2>Best Practices</h2>
+  <p><strong>Be Specific but Flexible:</strong> Provide clear direction while leaving room for creative interpretation.</p>
+  <p><strong>Layer Instructions:</strong> Combine content requirements with style, structure, and quality guidelines.</p>
+  <p><strong>Use Examples:</strong> Show rather than just tell what you want through concrete examples.</p>
+  <p><strong>Iterate and Refine:</strong> Build on AI responses to develop ideas through collaborative refinement.</p>
+  <p><strong>Consider Context:</strong> Understand the AI model's capabilities and adjust prompts accordingly.</p>
+
+  <div class="meta-info">
+    <p><strong>Category:</strong> AI Interaction > Prompt Engineering</p>
+    <p><strong>Complexity Level:</strong> Intermediate</p>
+    <p><strong>AI Relevance:</strong> Very High - Fundamental to AI-assisted creative writing</p>
+    <p><strong>Related Concepts:</strong> 
+      <a href="prompt_structure.html">Prompt Structure</a> • 
+      <a href="creative_constraints.html">Creative Constraints</a> • 
+      <a href="voice.html">Voice</a> • 
+      <a href="theme.html">Theme</a> • 
+      <a href="character_arc.html">Character Arc</a>
+    </p>
+  </div>
 </body>
 </html>
